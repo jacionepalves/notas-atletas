@@ -3,7 +3,7 @@ class CalcularMediaAtletas {
     this.ginastas = ginastas;
   }
 
-  1- Ordenar as Notas dos Ginastar
+  1- Ordenar as Notas dos Ginastas
   ordenarNotas() {
     this.ginastas.forEach(function (ginasta) {
       ginasta.notas = ginasta.notas.sort(function (a, b) {
@@ -89,7 +89,7 @@ let atletas = [
 
 let calcularMedia = new CalcularMediaAtletas(atletas);
 
- Chamando os métodos na ordem correta
+Chamando os métodos na ordem correta
 calcularMedia.ordenarNotas();
 calcularMedia.descartarMaiorMenor();
 calcularMedia.somarNotas();
