@@ -1,0 +1,1 @@
+Aplicação para receber o nome dos atletas, calcular a média e apresentar o resultado ao usuário.
